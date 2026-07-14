@@ -3,66 +3,7 @@
 #include <stdlib.h>
 
 int main(void){
-    
-    /* 나이 받기
-    int age;
 
-    printf("May i ask how old you are?  : ");
-    scanf("%d", &age);
-    */
-
-    // elementary(8-13) / middle(14-16) / high (17-19)
-    // if / else if/ else
-    
-    /*if (age >= 8 && age <=13){
-        printf("you are a elementary school student");
-    }
-    else if (age >= 14 && age <= 16){
-        printf("you are a middle school student");
-    }
-    else if (age >= 17 && age <= 19){
-        printf("you are a high school student");
-    }
-    else {
-        printf("you are no longer a student");
-    }*/
-
-    /*switch(age)
-    {
-        case 8 : 
-        case 9 :
-        case 10 :
-        case 11 :
-        case 12 :
-        case 13 : printf("초등학생입니다\n"); break;
-        case 14 :
-        case 15 :
-        case 16 : printf("중학생입니다\n"); break;
-        case 17 :
-        case 18 :
-        case 19 : printf("고등학생입니다\n"); break;
-        default : printf("학생이 아닌가봐요\n"); break;
-
-    }
-    */
-
-
-    // 가위바위보
-    /* srand(time(NULL));
-    int i = rand() %3; // 0~2 반환
-    
-    switch(i)
-    {
-        case 0:printf("바위"); break;
-        case 1:printf("가위"); break;
-        case 2:printf("보"); break;
-        default :printf("몰라요\n"); break;
-    }
-
-    */
-
-
-    // up & down
 
     srand(time(NULL));
 
