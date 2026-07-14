@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main(void){
-    
+
     srand(time(NULL));
 
     int num = rand() %100 +1; // 1~100
