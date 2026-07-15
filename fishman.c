@@ -120,7 +120,7 @@ void decreaseWater(long elapsedTime)
         arrayFish[i] -= (level *3*(int)elapsedTime); //3 : 난이도 조절을 위한 값
         if (arrayFish[i] < 0)
         {
-            arrayFish[i] = 0;
+            arrayFish[i] = 0;  // 물 높이가 마이너스일 수 없다.
         }
     }
 }
