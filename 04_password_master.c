@@ -46,7 +46,7 @@ int main(void)
 
 int getRandomNumber(int level)
 {
-    return rand() %(level * 7) +1;
+    return rand() % (level * 7) +1;
 }
 
 void showQuestion(int level, int num1, int num2)

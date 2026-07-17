@@ -6,7 +6,7 @@ int main(void){
 
     srand(time(NULL));
 
-    int num = rand() %100 +1; // 1~100
+    int num = rand() % 100 + 1; // 1~100
     printf("숫자 : %d\n", num);
     int answer = 0; //정답
     int chance = 5; //기회
